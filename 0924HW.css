@@ -10,8 +10,7 @@
 }
 .buy button {
   display: block;
-  border-color: #ff133e;
-  margin: 8px auto;
+  border: 1px solid #ff133e;
   padding: 8px;
   width: 100%;
   cursor: pointer;
@@ -26,7 +25,7 @@ li {
 img {
   width: 100%;
 }
-p {
+.price {
   font-size: 30px;
   margin-bottom: 16px;
   display: block;
@@ -48,10 +47,7 @@ p {
   padding: 16px 16px;
 }
 .classCourse {
-  padding-top: 24px;
   border-top: 1px solid black;
-  margin-top: 24px;
-}
-.classCourse li {
-  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-top: 24px;
 }
